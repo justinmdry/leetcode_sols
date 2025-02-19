@@ -3,15 +3,11 @@ package leetcodetest;
 public class q226 {
 	//Invert a BST 
 	
-//	public TreeNode invertTree(TreeNode root) {
-//        invertTreeHelper(root);
-//        return root;
-//    }
-//
-//    public void invertTreeHelper(TreeNode root){
-//        if(root == null){
+	//
+  //  public void invertTreeHelper(TreeNode root){
+  //      if(root == null){
 //            return;
-//        }
+ //       }
 //        TreeNode clone = root.left;
 //        root.left = root.right;
 //        root.right = clone;
